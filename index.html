@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slide slide1">
+        <div class="slide-overlay"></div>
+        <h1>One</h1>
+      </div>
+      <div class="slide slide2">
+        <div class="slide-overlay"></div>
+        <h1>Two</h1>
+      </div>
+      <div class="slide slide3">
+        <div class="slide-overlay"></div>
+        <h1>Three</h1>
+      </div>
+
+      <div class="arrow-btn btn-left">&#10094;</div>
+      <div class="arrow-btn btn-right">&#10095;</div>
+
+      <div class="circles">
+        <span class="circle" onclick="selectSlide(0)"></span>
+        <span class="circle" onclick="selectSlide(1)"></span>
+        <span class="circle" onclick="selectSlide(2)"></span>
+      </div>
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+  </body>
+</html>
